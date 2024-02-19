@@ -1,0 +1,35 @@
+body{
+    height: 100%;
+    margin: 0;
+    background: orange;
+    
+
+}
+.header img{
+    width: 80px;
+    margin-left: -15;
+}
+.login_div{
+    background: red;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+    #sair{
+        font-size: 25px;
+        float: right;
+    }
+    #room_name{
+        cursor: pointer;
+        width: 60%;
+    }
+    #output{
+        padding: 10px;
+        width: 80%;
+        background: cyan;
+        border-radius: 15px;
+    }
