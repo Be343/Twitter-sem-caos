@@ -27,7 +27,7 @@ const firebaseConfig = {
                 childKey=childSnapshot.key;
                 Room_names=childKey;
                 console.log("nome da sala"+Room_names);
-                row="<div class='room_name'id="+Room_names+"onclick='redirectToRoomName(this.id)'>#"+Room_names+"</div><hr>";
+                row="<div class='room_name'id="+Room_names+" onclick='redirectToRoomName(this.id)'>#"+Room_names+"</div><hr>";
                 document.getElementById("output").innerHTML+=row;
             })
         })

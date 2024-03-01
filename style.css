@@ -33,3 +33,9 @@ body{
         background: cyan;
         border-radius: 15px;
     }
+    .input_div_message{
+        position:fixed;
+        bottom: 0px;
+        width: 73%;
+        background: white;
+    }
