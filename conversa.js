@@ -40,7 +40,7 @@ function getData(){
             name = message_data["name"];
             message = message_data["message"];
             like = message_data["like"];
-            name_with_id =
+            name_with_tag =
               "<h4> " + name + "<img class= 'user_tick' src='tick.png'></h4>";
             message_with_tag = "<h4 class='message_h4'>" + message + "</h4>";
             like_button =
