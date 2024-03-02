@@ -69,7 +69,7 @@ function getData(){
     });
   }
   
-  function login() {
+  function sair() {
     localStorage.removeItem("user_name");
     localStorage.removeItem("room_name");
     window.location.replace("index.html");

@@ -34,11 +34,11 @@ body{
         border-radius: 15px;
     }
     .input_div_message{
-        position: sticky;
+        position:sticky;
         bottom: 0px;
         width: 73%;
         background: white;
     }
     .user_tick{
-            width:20px;
+        width: 20px;
     }
